@@ -1,8 +1,6 @@
 #include <stdio.h>
-/*
- *use Puts in main function
- *Return 0;
- * */
+
+/* use puts in main function and return 0  */
 
 int main(void)
 {
