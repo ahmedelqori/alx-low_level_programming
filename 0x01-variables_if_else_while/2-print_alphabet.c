@@ -13,7 +13,7 @@ int main(void)
 		putchar(alphabet);
 		if (alphabet == 'z')
 		{
-		putchar("\n");
+		putchar(" ");
 		}
 		alphabet++;
 	}
