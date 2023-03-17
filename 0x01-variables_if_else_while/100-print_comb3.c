@@ -11,20 +11,23 @@ int main(void)
 	a = 0;
 	b = 0;
 
-	while (a < 10)
+	for (a = 0; a < 10; a++)
 	{
-		while (b < 10)
+		for (b = 0; b < 10; b++)
 		{
 			if (a < b)
 			{
-			putchar(48 + a);
-			putchar(48 + b);
-			putchar(',');
-			putchar(' ');
+				putchar(48 + a);
+				putchar(48 + b);
+
+				if (a != 8)
+				{
+				putchar(',');
+				putchar(' ');
+				}
 			}
-			b++;
 		}
-		a++;
 	}
+	putchar('\n');
 	return (0);
 }
