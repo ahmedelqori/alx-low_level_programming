@@ -18,7 +18,7 @@ int main(void)
 		else
 		{
 			putchar(48 + i);
-			putchar('$')
+			putchar('$');
 		}
 	}
 	putchar('\n');
