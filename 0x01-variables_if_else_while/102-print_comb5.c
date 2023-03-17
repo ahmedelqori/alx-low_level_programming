@@ -23,6 +23,8 @@ int main(void)
 			{
 				for (d = 0; d < 10; d++)
 				{
+					if (a + b < c + d)
+					{
 					putchar(48 + a);
 					putchar(48 + b);
 					putchar(' ');
@@ -30,6 +32,7 @@ int main(void)
 					putchar(48 + d);
 					putchar(',');
 					putchar(' ');
+					}
 
 				}
 			}
