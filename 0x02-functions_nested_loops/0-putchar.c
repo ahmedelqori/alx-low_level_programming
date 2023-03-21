@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  *main- print putchar
@@ -7,13 +8,14 @@
 int main(void)
 {
 
-	char str[] = "_putchar";
+	char word[] = "_putchar";
 
 	int letter = 0;
 
 	while (letter < 8)
 	{
-	pucthar(letter);
+	putchar(word[letter]);
+	letter++;
 	}
 	putchar('\n');
 	return (0);
