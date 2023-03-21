@@ -2,13 +2,13 @@
 
 /**
  *_islower - check if letter is lower case
- *@index: input
+ *@c: input
  * Return: 0 || 1
  */
 
-int _islower(int index)
+int _islower(int c)
 {
-	if (index >= 65 && index <= 91)
+	if (c >= 65 && c <= 91)
 	{
 		return (0);
 	}
