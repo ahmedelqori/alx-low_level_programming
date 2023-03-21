@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *print_alphabet_x10- for print all alphabet
+ *print_alphabet- for print all alphabet
  *Return : void
  */
 
@@ -12,7 +12,7 @@ void print_alphabet(void)
 
 	char letter = 'a';
 
-	while (loop <= 10)
+	while (loop < 10)
 	{
 		while (letter <= 'z')
 		{
