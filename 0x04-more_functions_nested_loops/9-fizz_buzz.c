@@ -22,20 +22,19 @@ int main(void)
 		else if (i % 5 == 0)
 		{
 			printf("Buzz");
-			if ( i == 100)
-			{
-				putchar('\n');
-			}
-			else
-			{
-				putchar(' ');
-			}
 		}
 		else
 		{
 			printf("%d ", i);
 		}
+		if (i != 100)
+		{
+			putchar(' ');
+		}
+		else
+		{
+			putchar('\n');
+		}
 	}
-	putchar('\n');
 	return (0);
 }
