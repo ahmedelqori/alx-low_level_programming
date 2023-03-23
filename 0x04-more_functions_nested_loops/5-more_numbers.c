@@ -8,15 +8,15 @@
 void more_numbers(void)
 {
 	int i, j;
-	
+
 	i = 0;
 	j = 0;
 
-	while (i < 10)
+	for (i = 0; i <= 9; i++)
 	{
-		while (j < 15)
+		for (j = 0; j <= 14; j++)
 		{
-			if (j > 10)
+			if (j > 9)
 			{
 				_putchar(48 + j / 10);
 				_putchar(48 + j % 10);
@@ -25,9 +25,7 @@ void more_numbers(void)
 			{
 				_putchar(48 + j);
 			}
-		j++;
 		}
 		_putchar('\n');
-	i++;
 	}
 }
