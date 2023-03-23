@@ -14,9 +14,13 @@ int main(void)
 		if (i % 3 == 0 && i % 5 == 0)
 		{
 			printf("FizzBuzz");
-			if (i != 99)
+			if (i != 100)
 			{
 				putchar(' ');
+			}
+			else
+			{
+				putchar('\n');
 			}
 		}
 		else if (i % 3 == 0)
@@ -32,6 +36,5 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
-	putchar('\n');
 	return (0);
 }
