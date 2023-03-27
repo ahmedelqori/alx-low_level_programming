@@ -16,7 +16,7 @@ length++;
 }
 if (length % 2 == 0)
 {
-length -= 1;
+length += 1;
 }
 length /= 2;
 while (str[length])
