@@ -14,14 +14,15 @@ while (str[length])
 {
 length++;
 }
+if (length % 2 == 0)
+{
+length -= 1;
+}
 length /= 2;
 while (str[length])
 {
 _putchar(str[length]);
 length++;
 }
-if (str[length-1] != '.')
-{
 _putchar('\n');
-}
 }
