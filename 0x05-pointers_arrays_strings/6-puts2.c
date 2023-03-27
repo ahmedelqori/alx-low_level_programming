@@ -14,8 +14,9 @@ while (str[length])
 {
 if (length % 2 == 0)
 {
-_putchar(48+length);
+_putchar(str[length]);
 }
 length++;
 }
+_putchar('\n');
 }
