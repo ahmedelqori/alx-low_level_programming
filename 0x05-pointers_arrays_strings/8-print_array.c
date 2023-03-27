@@ -3,7 +3,7 @@
 /**
 *print_array - print an array
 *@a: first input
-*@n: second input 
+*@n: second input
 *Return : void;
 */
 void print_array(int *a, int n)
