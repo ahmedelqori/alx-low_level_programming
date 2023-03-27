@@ -1,8 +1,8 @@
 #include "main.h"
 
-/*
- *reset_to_98 - main function
- *@*n : input
+/**
+ *reset_to_98 - takes the pointer and updates the value
+ *@n : input
  *Return : void
  */
 
