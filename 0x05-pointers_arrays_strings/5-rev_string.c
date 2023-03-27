@@ -15,10 +15,8 @@ i = 0;
 
 while (s[length])
 {
-    length++;
+length++;
 }
-
-
 while (i < (length / 2))
 {
 char tmp = s[length - 1 - i];
