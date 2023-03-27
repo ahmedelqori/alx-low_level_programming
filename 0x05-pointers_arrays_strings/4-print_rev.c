@@ -14,7 +14,7 @@ while (s[i])
 {
 i++;
 }
-i-=1;
+i -= 1;
 while (i >= 0)
 {
 putchar(s[i]);
