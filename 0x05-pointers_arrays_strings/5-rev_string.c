@@ -8,7 +8,12 @@
 
 void rev_string(char *s)
 {
-int length = _strlen(s);
+int length = 0;
+
+while (s[length])
+{
+    length++;
+}
 
 int i = 0;
 
