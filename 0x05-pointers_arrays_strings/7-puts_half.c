@@ -20,5 +20,8 @@ while (str[length])
 _putchar(str[length]);
 length++;
 }
+if (str[length-1] != '.')
+{
 _putchar('\n');
+}
 }
