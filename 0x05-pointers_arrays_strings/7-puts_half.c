@@ -14,7 +14,7 @@ while (str[length])
 {
 length++;
 }
-if (length % 2 == 0)
+if (length % 2 != 0)
 {
 length += 1;
 }
