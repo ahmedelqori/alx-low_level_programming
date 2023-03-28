@@ -18,15 +18,4 @@ for (i = 0; i <= length ; i++)
 dest[i] = src[i];
 }
 return (dest);
-/**
-int length;
-
-length = 0;
-while (src[length])
-{
-dest[length] = src[length];
-length++;
-}
-return (dest);
-*/
 }
