@@ -16,6 +16,6 @@ for (j = 0 ; j < (n / 2); j++)
 int tmp = a[j];
 
 a[j] = a[n - 1 - j];
-a[n- 1 - j] = tmp;
+a[n - 1 - j] = tmp;
 }
 }
