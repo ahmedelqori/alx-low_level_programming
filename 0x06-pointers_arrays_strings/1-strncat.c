@@ -16,8 +16,7 @@ length = 0;
 while (dest[length])
 {
 length++;
-}
-    
+} 
 i = 0;
 
 while (src[i] && i < n)
