@@ -1,6 +1,6 @@
 #include "main.h"
 
-/***
+/**
 * _strcat - append string
 * @dest:input
 * @src:input
