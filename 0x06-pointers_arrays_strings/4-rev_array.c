@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _strcmp - cpy string
+* reverse_array - cpy string
 * @a:input
 * @n:input
 * Return: char
@@ -9,18 +9,13 @@
 
 void reverse_array(int *a, int n)
 {
-int i, j;
+int j;
 
-i = 0;
-while (a[i] != '\0')
-{
-i++;
-}
-for (j = 0 ; j < (i / 2); j++)
+for (j = 0 ; j < (n / 2); j++)
 {
 int tmp = a[j];
 
-a[j] = a[i - 1 - j];
-a[i - 1 - j] = tmp;
+a[j] = a[n - 1 - j];
+a[n- 1 - j] = tmp;
 }
 }
