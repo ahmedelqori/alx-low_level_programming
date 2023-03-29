@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _strncat - append string
+* _strncpy - cpy string
 * @dest:input
 * @src:input
 * @n:input
