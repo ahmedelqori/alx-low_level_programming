@@ -2,9 +2,8 @@
 
 /**
 * _strcmp - cpy string
-* @dest:input
-* @src:input
-* @n:input
+* @s1:input
+* @s2:input
 * Return: char
 */
 
@@ -14,7 +13,8 @@ int res, i;
 
 res = 0;
 i = 0;
-while (s1[i] && s1[i] == s2[i]){
+while (s1[i] && s1[i] == s2[i])
+{
 i++;
 }
 res = s1[i] - s2[i];
