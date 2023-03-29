@@ -23,5 +23,5 @@ while (src[i])
 dest[i + length] = src[i];
 i++;
 }
-    return (dest);
+return (dest);
 }
