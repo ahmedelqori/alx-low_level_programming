@@ -16,7 +16,7 @@ while (a[i])
 {
     i++;
 }
-for (i = 0 ; j < (i / 2); j++)
+for (j = 0 ; j < (i / 2); j++)
 {
 int tmp = a[j];
 
