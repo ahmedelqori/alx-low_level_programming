@@ -2,7 +2,7 @@
 
 /**
 * string_toupper - Upper String
-* @dest:input
+* @str:input
 * Return: char*
 */
 
@@ -20,13 +20,13 @@ int j = 0;
 
 while (alphabetLower[j])
 {
-if (alphabetLower[j] == str[i]){
+if (alphabetLower[j] == str[i])
+{
 str[i] = alphabetUpper[j];
 }
 j++;
 }
 i++;
 }
-
 return (str); 
 }
