@@ -28,7 +28,7 @@ str[i] = letterUpper;
 }
 letterUpper++;
 letterLower++;
-}   
+}
 }
 }
 i++;
