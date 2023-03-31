@@ -9,12 +9,16 @@
 void print_number(int n)
 {
     int i;
-
+    
+    if (n == 0)
+    {
+        _putchar(48 + 0);
+    }
     i = 1;
-    if (n < 10)
+    if (n < 0)
     {
         n *= -1;
-        putchar('-');
+        _putchar('-');
     }
     while (i <= n)
     {
@@ -25,7 +29,7 @@ void print_number(int n)
     {
         int j = n / i;
         
-        putchar(48 + j);
+        _putchar(48 + j);
         n = n % i;
         i /= 10;
     }
