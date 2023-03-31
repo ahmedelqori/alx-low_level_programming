@@ -16,18 +16,18 @@ if (str[i] >= 'a' && str[i] <= 'z')
 {
 if (str[i - 1] == '\n' || str[i - 1] == ' ' || str[i - 1] == '.' || str[i - 1] == '\t')
 {
-char letterL = 'a';
+char leL = 'a';
 
-char letterU = 'A';
+char leU = 'A';
 
-while (letterL <= 'z')
+while (leL <= 'z')
 {
-if (str[i] == letterL)
+if (str[i] == leL)
 {
-str[i] = letterU;
+str[i] = leU;
 }
-letterU++;
-letterL++;
+leU++;
+leL++;
 }
 }
 }
