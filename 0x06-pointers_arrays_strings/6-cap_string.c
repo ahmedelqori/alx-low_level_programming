@@ -16,21 +16,22 @@ if (str[i] >= 'a' && str[i] <= 'z')
 {
 if (str[i - 1] == '\n' || str[i - 1] == ' ' || str[i - 1] == '.' || str[i - 1] == '\t')
 {
-char letterLower = 'a';
+char letterL = 'a';
 
-char letterUpper = 'A';
+char letterU = 'A';
 
-while (letterLower <= 'z')
+while (letterL <= 'z')
 {
-if (str[i] == letterLower)
+if (str[i] == letterL)
 {
-str[i] = letterUpper;
+str[i] = letterU;
 }
-letterUpper++;
-letterLower++;
+letterU++;
+letterL++;
 }
 }
 }
 i++;
 }
+return (str);
 }
