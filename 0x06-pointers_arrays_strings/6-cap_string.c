@@ -14,7 +14,9 @@ while (str[i])
 {
 if (str[i] >= 'a' && str[i] <= 'z')
 {
-if (str[i - 1] == '\n' || str[i - 1] == ' ' || str[i - 1] == '.' || str[i - 1] == '\t')
+if (str[i - 1] == '\n' || 
+str[i - 1] == ' ' || str[i - 1] == '.'
+|| str[i - 1] == '\t')
 {
 char leL = 'a';
 
