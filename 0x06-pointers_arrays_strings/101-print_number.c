@@ -28,7 +28,7 @@ i /= 10;
 while (n > 0)
 {
 int j = n / i;
-        
+
 _putchar(48 + j);
 n = n % i;
 i /= 10;
