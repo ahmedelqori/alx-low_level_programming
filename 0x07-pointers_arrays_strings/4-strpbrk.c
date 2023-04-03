@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strspn - set memory
+ * _strpbrk - set memory
  * @s:first input
  * @accept:second input
  * Return: int
