@@ -2,3 +2,5 @@
 0-memset.exe
 1-main.c
 1-memcpy.exe
+2-main.c
+2-strchr.exe
