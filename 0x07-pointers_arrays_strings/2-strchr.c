@@ -8,9 +8,9 @@
  */
 char *_strchr(char *s, char c)
 {
-while (s)
+while (*s)
 {
-if (s != c)
+if (*s != c)
 {
 s++;
 }
@@ -19,7 +19,7 @@ else
 return (s);
 }
 }
-if (c)
+if (!c)
 {
 return (s);
 }
