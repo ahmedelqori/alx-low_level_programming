@@ -19,7 +19,7 @@ else
 return (s);
 }
 }
-if (!c)
+if (c == '\0')
 {
 return (s);
 }
