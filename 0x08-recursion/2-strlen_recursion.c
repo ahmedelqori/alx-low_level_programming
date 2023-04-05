@@ -3,7 +3,7 @@
 /**
  * _strlen_recursion - puts word with recursion
  * @s: input;
- * Return : value
+ * Return: value
  */
 
 int _strlen_recursion(char *s)
