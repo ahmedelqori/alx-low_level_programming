@@ -1,20 +1,15 @@
 #include "main.h"
 
 /**
- *_abs - value absolute of number
- *@n : input
- *Return: 0
+ * _abs - computes the absolute value of an integer
+ * @n: the int to check
+ * Return: the absolute value of int
  */
-
 int _abs(int n)
 {
 	if (n >= 0)
 	{
-		n = n;
+		return (n);
 	}
-	else
-	{
-		n *= (-1);
-	}
-	return (n);
+	return (-n);
 }
