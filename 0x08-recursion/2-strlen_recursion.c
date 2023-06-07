@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *_strlen_recursion - print length of string
- * @s : string
- * Return : void
+ * _strlen_recursion - print length of string
+ * @s: string
+ * Return: void
  */
 
 int _strlen_recursion(char *s)
