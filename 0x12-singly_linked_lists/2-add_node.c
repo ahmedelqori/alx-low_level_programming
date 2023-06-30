@@ -3,28 +3,23 @@
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *node = malloc(sizeof(list_t));
+	
+	size_t len;
+	
+	node->str = strdup(str);
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-	node->str = strdup(str);
-	node->len = strlen(str);
+	for (len = 0; str[len]; len++);
 
-	if (*head == NULL)
-	{
-		*head = node;
-	}
-	else
-	{
-		list_t *tmp = *head;
+	node->len = len;
 
-		while (tmp->next)
-		{
-			tmp = tmp->next;
-		}
-		tmp->next = node;
-	}
-	return *head;
+	node->next = *head;
+
+	*head = node;
+
+	return (node);
 
 }
