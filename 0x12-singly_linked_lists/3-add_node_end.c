@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 /**
  *add_node_end - add node to end of linked list
@@ -19,13 +19,19 @@ list_t *add_node_end(list_t **head, const char *str)
 		return (NULL);
 	}
 
-	size_t len = 0;
+	int len;
 
-	while (str[len])
+	for (len = 0; str[len];)
 	{
 		len++;
 	}
-
+	
+	if (*head == NULL)
+	{
+		*head = node;
+	}
+	else
+	{
 	list_t *tmp = *head;
 
 	while (tmp->next)
@@ -37,6 +43,6 @@ list_t *add_node_end(list_t **head, const char *str)
 	node->len = len;
 	node->next = NULL;
 	tmp->next = node;
-
+	}
 	return (node);
 }
